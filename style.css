@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body > div {
+  background-color: rgba(0,0,0,0.6);
+  width: 70%;
+  margin: 5% auto;
+  border-radius: 15px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+header > img {
+  display: block;
+  margin: 10px auto;
+  width: 20%;
+}
+
+header > h1 {
+  text-align: center;
+  color: rgb(0,221,0);
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+nav{
+  text-align: center;
+  background-color: rgb(0, 221, 0);
+  padding: 6px;
+}
+
+nav > button {
+  font-size: 12px;
+}
+
+nav, main {
+  width: 90%;
+  margin: auto;
+}
+
+.monopattino{
+  color: white;
+  margin: 25px auto;
+}
+
+section.monopattino > h2 {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+section.monopattino > p {
+  font-size: 11px;
+  margin: 2px 0px;
+}
+
+.stato-carica{
+  height: 20px;
+  border-radius: 8px;
+}
+
+#gino22{
+  width: 40%;
+  background-color: orange;
+}
+
+#mike24{
+  width: 70%;
+  background-color: green;
+}
+
+#fede154{
+  width: 15%;
+  background-color: red;
+}
